@@ -59,12 +59,12 @@ Feature: Retail Home Page
     And User click add a new address link for shipping address
     And User fill new address Form With Below Information
       | country       | fullName     | phoneNumber | streetAddress  | apt | city     | state    | zipCode |
-      | United States | Again Genius |  3242335769 | 2378 somewhere | 101 | New York | New York |   43002 |
+      | United States | Again Genius |  3242335769 | 2378 somewhere else | 101 | New York | New York |   43002 |
     And User click Add Your Address button
     And User click Add a credit card or Debit card for payment Method
     And User Fill Debit or Credit Card Information
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 8934284658001976 | Legend     |              11 |           2028 |          345 |
+      | 8934284658007564 | Legend     |              11 |           2028 |          345 |
     And User click on add your card button
     And User click on place your order
     Then a message Should Be Displayed 'Order Placed, Thanks'
