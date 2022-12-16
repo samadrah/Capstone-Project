@@ -41,7 +41,7 @@ Feature: Retail Account Page
     And User click on edit option of card section
     And User edit information with below data
       | cardNumber       | nameOnCard  | expirationMonth | expirationYear | securityCode |
-      | 542597489271263 | Still Genius |              12 |           2030 |          736 |
+      | 5425974892712633 | Still Genius |              12 |           2030 |          736 |
     And User click on Update your card button
     Then a Message should be displayed 'Payment Method updated Successfully'
 

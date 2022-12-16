@@ -927,3 +927,60 @@
 2022-11-19 11:46:21,377 [main] INFO logger_File} - user changed quantity to 2
 2022-11-19 11:46:21,427 [main] INFO logger_File} - user clicked on add to cart button
 2022-11-19 11:46:21,592 [main] INFO logger_File} - cart icon shows 2 items
+2022-12-16 18:08:54,836 [main] INFO logger_File} - User is on home page
+2022-12-16 18:08:54,899 [main] INFO logger_File} - User is on home page
+2022-12-16 18:08:54,928 [main] INFO logger_File} - user clicked on sign in button
+2022-12-16 18:08:54,994 [main] INFO logger_File} - user clicked on sign in button
+2022-12-16 18:08:55,116 [main] INFO logger_File} - user entered email and password
+2022-12-16 18:08:55,182 [main] INFO logger_File} - user entered email and password
+2022-12-16 18:08:55,188 [main] INFO logger_File} - user clicked on log in button
+2022-12-16 18:08:55,246 [main] INFO logger_File} - user clicked on log in button
+2022-12-16 18:11:44,109 [main] INFO logger_File} - User is on home page
+2022-12-16 18:11:44,205 [main] INFO logger_File} - user clicked on sign in button
+2022-12-16 18:11:44,379 [main] INFO logger_File} - user entered email and password
+2022-12-16 18:11:44,440 [main] INFO logger_File} - user clicked on log in button
+2022-12-16 18:14:31,827 [main] INFO logger_File} - User is on home page
+2022-12-16 18:14:31,936 [main] INFO logger_File} - user clicked on sign in button
+2022-12-16 18:14:32,100 [main] INFO logger_File} - user entered email and password
+2022-12-16 18:14:32,161 [main] INFO logger_File} - user clicked on log in button
+2022-12-16 18:15:12,403 [main] INFO logger_File} - User is on home page
+2022-12-16 18:15:12,506 [main] INFO logger_File} - user clicked on sign in button
+2022-12-16 18:15:12,669 [main] INFO logger_File} - user entered email and password
+2022-12-16 18:15:12,730 [main] INFO logger_File} - user clicked on log in button
+2022-12-16 18:15:13,251 [main] INFO logger_File} - user is logged in into account
+2022-12-16 18:18:05,632 [main] INFO logger_File} - User is on home page
+2022-12-16 18:18:05,720 [main] INFO logger_File} - user clicked on sign in button
+2022-12-16 18:18:05,888 [main] INFO logger_File} - user entered email and password
+2022-12-16 18:18:05,947 [main] INFO logger_File} - user clicked on log in button
+2022-12-16 18:18:06,157 [main] INFO logger_File} - user is logged in into account
+2022-12-16 18:18:06,242 [main] INFO logger_File} - user changed category to smart home
+2022-12-16 18:18:06,330 [main] INFO logger_File} - user typed kasa outdoor smart plug in search bar
+2022-12-16 18:18:06,421 [main] INFO logger_File} - user clicked on search button
+2022-12-16 18:18:06,511 [main] INFO logger_File} - user clicked on item
+2022-12-16 18:18:06,655 [main] INFO logger_File} - user changed quantity to 2
+2022-12-16 18:18:06,717 [main] INFO logger_File} - user clicked on add to cart button
+2022-12-16 18:18:06,823 [main] INFO logger_File} - cart icon shows 2 items
+2022-12-16 18:19:59,329 [main] INFO logger_File} - User is on home page
+2022-12-16 18:19:59,428 [main] INFO logger_File} - user clicked on sign in button
+2022-12-16 18:19:59,589 [main] INFO logger_File} - user entered email and password
+2022-12-16 18:19:59,651 [main] INFO logger_File} - user clicked on log in button
+2022-12-16 18:20:00,184 [main] INFO logger_File} - user is logged in into account
+2022-12-16 18:20:00,310 [main] INFO logger_File} - user clicked on account option
+2022-12-16 18:22:26,142 [main] INFO logger_File} - User is on home page
+2022-12-16 18:22:26,245 [main] INFO logger_File} - user clicked on sign in button
+2022-12-16 18:22:26,412 [main] INFO logger_File} - user entered email and password
+2022-12-16 18:22:26,476 [main] INFO logger_File} - user clicked on log in button
+2022-12-16 18:22:27,070 [main] INFO logger_File} - user is logged in into account
+2022-12-16 18:22:27,190 [main] INFO logger_File} - user clicked on account option
+2022-12-16 18:22:27,420 [main] INFO logger_File} - user entered name and phone
+2022-12-16 18:22:27,473 [main] INFO logger_File} - user clicked on update button
+2022-12-16 18:22:27,502 [main] INFO logger_File} - user updated profile information
+2022-12-16 18:23:16,145 [main] INFO logger_File} - User is on home page
+2022-12-16 18:23:16,248 [main] INFO logger_File} - user clicked on sign in button
+2022-12-16 18:23:16,414 [main] INFO logger_File} - user entered email and password
+2022-12-16 18:23:16,475 [main] INFO logger_File} - user clicked on log in button
+2022-12-16 18:23:17,054 [main] INFO logger_File} - user is logged in into account
+2022-12-16 18:23:17,163 [main] INFO logger_File} - user clicked on account option
+2022-12-16 18:23:17,375 [main] INFO logger_File} - user clicked on card and then on edit in card section
+2022-12-16 18:23:17,775 [main] INFO logger_File} - user edited all information on card
+2022-12-16 18:23:17,825 [main] INFO logger_File} - user clicked on update card button

@@ -12,13 +12,13 @@ public class RetailAccountPage extends BaseSetup{
 		PageFactory.initElements(getDriver(), this);
 	}
 	
-	@FindBy(xpath="//img[@id='profileImage']")
+	@FindBy(id="profileImage")
 	public WebElement profileImg;
 	
 	@FindBy(id="nameInput")
 	public WebElement name;
 	
-	@FindBy(id="phoneNumberInput")
+	@FindBy(id="personalPhoneInput")
 	public WebElement phonenumber;
 	
 	@FindBy(xpath="//button[text()='Update']")
@@ -125,5 +125,6 @@ public class RetailAccountPage extends BaseSetup{
 	
 	@FindBy(xpath="//button[text()='Remove']")
 	public WebElement removeAddressBttn;
-
+	
+	
 }
