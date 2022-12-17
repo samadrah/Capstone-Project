@@ -10,7 +10,7 @@ Feature: Retail Account Page
   @accountInfo
   Scenario: Verify user can update Profile information
     When User click on Account option
-    And User update Name 'Geniuss' and Phone '202-548-1809'
+    And User update Name 'Genius' and Phone '202-548-1029'
     And User click on update option
     Then User profile information should be updated
 
@@ -31,7 +31,7 @@ Feature: Retail Account Page
     And User click on add a payment method link
     And User fill Debit or Credit card information
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 3747220926655432 | Genius  |              12 |           2029 |          958 |
+      | 3747220926653809 | Genius  |              12 |           2029 |          958 |
     And User click on add your card button
     Then A message should be displayed 'Payment Method added sucessfully'
 
@@ -41,7 +41,7 @@ Feature: Retail Account Page
     And User click on edit option of card section
     And User edit information with below data
       | cardNumber       | nameOnCard  | expirationMonth | expirationYear | securityCode |
-      | 5425974892710987 | Still Genius |              12 |           2030 |          736 |
+      | 5425974892715464 | Still Genius |              12 |           2030 |          736 |
     And User click on Update your card button
     Then a Message should be displayed 'Payment Method updated Successfully'
 
@@ -57,7 +57,7 @@ Feature: Retail Account Page
     And User click on add Address option
     And User fill new address form with below information
       | country       | fullName    | phoneNumber | streetAddress      | apt | city         | state    | zipCode |
-      | United States | Still Genius |  2025483500 | 3887 Somewhere Ave | 523 | FairFax | Virginia |   23543 |
+      | United States | Still Genius |  2025483501 | 3845 Somewhere Ave | 523 | FairFax | Virginia |   23543 |
     And User click Add Your Address button
     Then a Message should Be Displayed 'Address Added Successfully'
 
@@ -67,7 +67,7 @@ Feature: Retail Account Page
     And User click on edit address option
     And User fill new address form with below Information
       | country | fullName   | phoneNumber | streetAddress       | apt | city     | state     | zipCode |
-      | Canada  | Now Lazy |  2028343209 | 7548 somewhere else | 345 | Ontario | Ontario |   34532 |
+      | Canada  | Now Lazy |  2028343256 | 7541 somewhere else | 345 | Ontario | Ontario |   34532 |
     And User click update your address button
     Then a mesaage Should Be displayed 'Address Updated Successfully'
 
