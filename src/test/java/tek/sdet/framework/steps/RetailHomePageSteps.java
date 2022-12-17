@@ -277,7 +277,7 @@ public class RetailHomePageSteps extends CommonUtilities{
 	public void theCartIcoNQuantityShouldChangeTo(String value) {
 		slowDown();
 		String expectedValue = value;
-		String actualValue = getElementText(factory.homePage().apexCartQty);
+		String actualValue = getElementText(factory.homePage().cartQuantity);
 		Assert.assertEquals(expectedValue, actualValue);
 		logger.info("cart icon shows 9 items");
 	}
