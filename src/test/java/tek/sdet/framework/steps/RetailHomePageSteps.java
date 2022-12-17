@@ -168,13 +168,10 @@ public class RetailHomePageSteps extends CommonUtilities{
 			String expectedValue = value;
 			Assert.assertEquals(expectedValue , getElementText(factory.homePage().cartQuantity));
 			logger.info("cart quantity changed to" + value);
+			click(factory.homePage().cartBttn);
+			click(factory.homePage().deleteFromCart);
 			break;
-		case "4":
-			String expectedValue1 = value;
-			Assert.assertEquals(expectedValue1 , getElementText(factory.homePage().cartQuantity));
-			logger.info("cart quantity changed to" + value);
-			break;
-		case "9":
+		case "5":
 			String expectedValue2 = value;
 			Assert.assertEquals(expectedValue2 , getElementText(factory.homePage().cartQuantity));
 			logger.info("cart quantity changed to" + value);

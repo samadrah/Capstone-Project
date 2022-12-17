@@ -115,6 +115,8 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(xpath="//img[@src='https://tek-retail-api.azurewebsites.net/images/products/7_8.jpg']")
 	public WebElement apexItem;
 	
+	@FindBy(xpath="//span[text()=\"Delete\"]")
+	public WebElement deleteFromCart;
 	
 	
 	

@@ -1,3 +1,4 @@
+@smokeTest
 Feature: Retail Order Page
 
 	@orderCancelation
