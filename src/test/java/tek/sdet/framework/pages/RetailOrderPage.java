@@ -54,7 +54,7 @@ public class RetailOrderPage extends BaseSetup{
 	@FindBy(xpath="//div[text()='Your review was added successfully']")
 	public WebElement reviewSuccessMsg;
 	
-	@FindBy(xpath="//div[@data-id='286']//child::p[text()='Show Details']")
+	@FindBy(xpath="//div[@data-id='1084']//child::p[text()='Show Details']")
 	public WebElement showDetails2ndorder;
 	
 	@FindBy(xpath="//div[@data-id='269']//child::p[text()='Show Details']")
