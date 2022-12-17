@@ -166,7 +166,11 @@ public class RetailHomePageSteps extends CommonUtilities{
 		String expectedValue = value;
 		String actualValue = getElementText(factory.homePage().cartQuantity);
 		Assert.assertEquals(expectedValue, actualValue);
+		if(actualValue == "2") {
 		logger.info("cart icon shows 2 items");
+		}else if (actualValue == "4"){
+			logger.info("cart icon shows 4 items");
+		}
 	}
 	
 	@And("User click on cart option")
@@ -251,7 +255,7 @@ public class RetailHomePageSteps extends CommonUtilities{
 	@And("User click on Item")
 	public void userClickONItem() {
 		slowDown();
-		click(factory.homePage().plugItem);
+		click(factory.homePage().apexItem);
 		logger.info("user clicked on item");
 	}
 	
@@ -268,7 +272,7 @@ public class RetailHomePageSteps extends CommonUtilities{
 		String expectedValue = value;
 		String actualValue = getElementText(factory.homePage().apexCartQty);
 		Assert.assertEquals(expectedValue, actualValue);
-		logger.info("cart icon shows 5 items");
+		logger.info("cart icon shows 9 items");
 	}
 
 	

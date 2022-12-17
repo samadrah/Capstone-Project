@@ -64,7 +64,7 @@ Feature: Retail Home Page
     And User click Add a credit card or Debit card for payment Method
     And User Fill Debit or Credit Card Information
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 8934284658007564 | Legend     |              11 |           2028 |          345 |
+      | 893428465804325 | Legend     |              11 |           2028 |          345 |
     And User click on add your card button
     And User click on place your order
     Then a message Should Be Displayed 'Order Placed, Thanks'

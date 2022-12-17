@@ -112,7 +112,8 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(xpath="//span[text()='MotorCycle & Powersports']")
 	public WebElement motorcycleAndPowersports;
 	
-	
+	@FindBy(xpath="//img[@src='https://tek-retail-api.azurewebsites.net/images/products/7_8.jpg']")
+	public WebElement apexItem;
 	
 	
 	
