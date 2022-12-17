@@ -161,23 +161,31 @@ public class RetailHomePageSteps extends CommonUtilities{
 		logger.info("user clicked on add to cart button");
 	}
 	
-	@Then("The cart icon quantity should change to {string}")
-	public void theCartIconQuantityShouldChangeTo(String value) {
-		switch(value) {
-		case "2":
-			String expectedValue = value;
-			Assert.assertEquals(expectedValue , getElementText(factory.homePage().cartQuantity));
-			logger.info("cart quantity changed to" + value);
-			click(factory.homePage().cartBttn);
-			click(factory.homePage().deleteFromCart);
-			break;
-		case "5":
-			String expectedValue2 = value;
-			Assert.assertEquals(expectedValue2 , getElementText(factory.homePage().cartQuantity));
-			logger.info("cart quantity changed to" + value);
-			break;
-		}
-		
+//	@Then("The cart icon quantity should change to {string}")
+//	public void theCartIconQuantityShouldChangeTo(String value) {
+//		switch(value) {
+//		case "2":
+//			String expectedValue = value;
+//			Assert.assertEquals(expectedValue , getElementText(factory.homePage().cartQuantity));
+//			logger.info("cart quantity changed to" + value);
+//			click(factory.homePage().cartBttn);
+//			click(factory.homePage().deleteFromCart);
+//			break;
+//		case "5":
+//			String expectedValue2 = value;
+//			Assert.assertEquals(expectedValue2 , getElementText(factory.homePage().cartQuantity));
+//			logger.info("cart quantity changed to" + value);
+//			break;
+//		}
+//		
+//	}
+//	
+	@Then("the cart icon quantity should change to {string}")
+	public void theCartIconQuantityShouldChangeTo(String quantity) {
+	    Assert.assertTrue(quantity, isElementDisplayed(factory.homePage().cartButtonQuantity));
+	    logger.info("Cart button displays " + quantity);
+	    click(factory.homePage().cartBttn);
+	    click(factory.homePage().deleteFromCart);
 	}
 	
 	@And("User click on cart option")

@@ -37,7 +37,7 @@ Feature: Retail Home Page
     And User click on item
     And User select quantity '2'
     And User click add to Cart button
-    Then The cart icon quantity should change to '2'
+    Then the cart icon quantity should change to '2'
   #above scenario will fail without wait time that is why
   #I used wait in some steps of above scenario
   
@@ -54,18 +54,18 @@ Feature: Retail Home Page
     And User click on item
     And User select quantity '2'
     And User click add to Cart button
-    And The cart icon quantity should change to '4'
+    And the cart icon quantity should change to '2'
     And User click on cart option
     And User click on Proceed to Checkout button
     And User click add a new address link for shipping address
     And User fill new address Form With Below Information
       | country       | fullName     | phoneNumber | streetAddress  | apt | city     | state    | zipCode |
-      | United States | Again Geniuss |  3242335456 | 8778 somewhere else | 101 | New York | New York |   43002 |
+      | United States | Again Geniuss |  3242335456 | 1278 somewhere else | 101 | New York | New York |   43002 |
     And User click Add Your Address button
     And User click Add a credit card or Debit card for payment Method
     And User Fill Debit or Credit Card Information
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 8934284658050191 | Legend     |              12 |           2028 |          345 |
+      | 8934284658054544 | Legend     |              12 |           2028 |          345 |
     And User click on add your card button
     And User click on place your order
     Then a message Should Be Displayed 'Order Placed, Thanks'
@@ -83,7 +83,7 @@ Feature: Retail Home Page
     And User click on Item
     And User select Quantity '5'
     And User click add to Cart button
-    Then The cart Icon quantity should change to '9'
+    Then the cart icon quantity should change to '9'
     And User click on cart option
     And User click on Proceed to Checkout button
     And User click on place your order

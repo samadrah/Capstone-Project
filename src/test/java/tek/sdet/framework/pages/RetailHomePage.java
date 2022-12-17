@@ -118,6 +118,9 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(xpath="//span[text()=\"Delete\"]")
 	public WebElement deleteFromCart;
 	
+	@FindBy(id="cartQuantity")
+	public WebElement cartButtonQuantity;
+	
 	
 	
 
