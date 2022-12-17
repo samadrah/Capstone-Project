@@ -163,16 +163,10 @@ public class RetailHomePageSteps extends CommonUtilities{
 	
 	@Then("The cart icon quantity should change to {string}")
 	public void theCartIconQuantityShouldChangeTo(String value) {
-		if(value.contains("2")) {
-			Assert.assertEquals(value, getElementText(factory.homePage().cartQuantity));
-			logger.info("Cart shows 2 Items");
-		}else if (value.contains("4")){
-			Assert.assertEquals(value, getElementText(factory.homePage().cartQuantity));
-			logger.info("Cart shows 4 Items");
-		}else if (value.contains("9")){
-			Assert.assertEquals(value, getElementText(factory.homePage().cartQuantity));
-			logger.info("Cart shows 9 Items");
-		}
+		String expectedValue = value;
+		String actualValue = getElementText(factory.homePage().cartQuantity);
+		Assert.assertEquals(expectedValue , actualValue);
+		logger.info("cart quantity changed to" + value);
 	}
 	
 	@And("User click on cart option")
