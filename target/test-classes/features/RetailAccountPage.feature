@@ -10,7 +10,7 @@ Feature: Retail Account Page
   @accountInfo
   Scenario: Verify user can update Profile information
     When User click on Account option
-    And User update Name 'Genius' and Phone '202-548-3893'
+    And User update Name 'Genius' and Phone '202-548-3564'
     And User click on update option
     Then User profile information should be updated
 
@@ -31,7 +31,7 @@ Feature: Retail Account Page
     And User click on add a payment method link
     And User fill Debit or Credit card information
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 3747220926656342 | Genius  |              12 |           2029 |          958 |
+      | 3747220926653425 | Genius  |              12 |           2029 |          958 |
     And User click on add your card button
     Then A message should be displayed 'Payment Method added sucessfully'
 

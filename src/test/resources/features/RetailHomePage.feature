@@ -53,7 +53,7 @@ Feature: Retail Home Page
     And User click on item
     And User select quantity '2'
     And User click add to Cart button
-    And The cart icon quantity should change to '2'
+    And The cart icon quantity should change to '4'
     And User click on cart option
     And User click on Proceed to Checkout button
     And User click add a new address link for shipping address
@@ -82,7 +82,7 @@ Feature: Retail Home Page
     And User click on Item
     And User select Quantity '5'
     And User click add to Cart button
-    Then The cart Icon quantity should change to '5'
+    Then The cart Icon quantity should change to '9'
     And User click on cart option
     And User click on Proceed to Checkout button
     And User click on place your order

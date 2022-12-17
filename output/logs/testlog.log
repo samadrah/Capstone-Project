@@ -984,3 +984,58 @@
 2022-12-16 18:23:17,375 - logger_File} -INFO - user clicked on card and then on edit in card section
 2022-12-16 18:23:17,775 - logger_File} -INFO - user edited all information on card
 2022-12-16 18:23:17,825 - logger_File} -INFO - user clicked on update card button
+2022-12-16 18:39:31,770 - logger_File} -INFO - User is on home page
+2022-12-16 18:39:31,862 - logger_File} -INFO - user clicked on sign in button
+2022-12-16 18:39:32,037 - logger_File} -INFO - user entered email and password
+2022-12-16 18:39:32,099 - logger_File} -INFO - user clicked on log in button
+2022-12-16 18:39:32,307 - logger_File} -INFO - user is logged in into account
+2022-12-16 18:39:32,410 - logger_File} -INFO - user clicked on account option
+2022-12-16 18:39:32,661 - logger_File} -INFO - user entered name and phone
+2022-12-16 18:42:06,146 - logger_File} -INFO - User is on home page
+2022-12-16 18:42:06,248 - logger_File} -INFO - user clicked on sign in button
+2022-12-16 18:42:06,416 - logger_File} -INFO - user entered email and password
+2022-12-16 18:42:06,477 - logger_File} -INFO - user clicked on log in button
+2022-12-16 18:42:06,770 - logger_File} -INFO - user is logged in into account
+2022-12-16 18:42:06,888 - logger_File} -INFO - user clicked on account option
+2022-12-16 18:42:07,132 - logger_File} -INFO - user entered name and phone
+2022-12-16 18:43:12,942 - logger_File} -INFO - User is on home page
+2022-12-16 18:43:13,047 - logger_File} -INFO - user clicked on sign in button
+2022-12-16 18:43:13,212 - logger_File} -INFO - user entered email and password
+2022-12-16 18:43:13,272 - logger_File} -INFO - user clicked on log in button
+2022-12-16 18:43:13,809 - logger_File} -INFO - user is logged in into account
+2022-12-16 18:43:13,933 - logger_File} -INFO - user clicked on account option
+2022-12-16 18:43:14,162 - logger_File} -INFO - user entered name and phone
+2022-12-16 18:44:14,428 - logger_File} -INFO - User is on home page
+2022-12-16 18:44:14,530 - logger_File} -INFO - user clicked on sign in button
+2022-12-16 18:44:14,692 - logger_File} -INFO - user entered email and password
+2022-12-16 18:44:14,751 - logger_File} -INFO - user clicked on log in button
+2022-12-16 18:44:15,267 - logger_File} -INFO - user is logged in into account
+2022-12-16 18:44:15,385 - logger_File} -INFO - user clicked on account option
+2022-12-16 18:44:15,617 - logger_File} -INFO - user entered name and phone
+2022-12-16 18:44:18,688 - logger_File} -INFO - user clicked on update button
+2022-12-16 18:44:18,717 - logger_File} -INFO - user updated profile information
+2022-12-16 18:47:01,719 - logger_File} -INFO - User is on home page
+2022-12-16 18:47:01,821 - logger_File} -INFO - user clicked on sign in button
+2022-12-16 18:47:01,911 - logger_File} -INFO - user clicked on create new account
+2022-12-16 18:47:02,234 - logger_File} -INFO - user filled the form with required information
+2022-12-16 18:47:02,295 - logger_File} -INFO - user clicked on sign up button
+2022-12-16 18:47:02,528 - logger_File} -INFO - user is logged in into account
+2022-12-16 18:50:14,934 - logger_File} -INFO - User is on home page
+2022-12-16 18:50:15,030 - logger_File} -INFO - user clicked on sign in button
+2022-12-16 18:50:15,199 - logger_File} -INFO - user entered email and password
+2022-12-16 18:50:15,258 - logger_File} -INFO - user clicked on log in button
+2022-12-16 18:50:15,802 - logger_File} -INFO - user is logged in into account
+2022-12-16 18:50:15,891 - logger_File} -INFO - user changed category to smart home
+2022-12-16 18:50:15,979 - logger_File} -INFO - user typed kasa outdoor smart plug in search bar
+2022-12-16 18:50:16,061 - logger_File} -INFO - user clicked on search button
+2022-12-16 18:53:59,968 - logger_File} -INFO - User is on home page
+2022-12-16 18:54:00,069 - logger_File} -INFO - user clicked on sign in button
+2022-12-16 18:54:00,233 - logger_File} -INFO - user entered email and password
+2022-12-16 18:54:00,292 - logger_File} -INFO - user clicked on log in button
+2022-12-16 18:54:00,834 - logger_File} -INFO - user is logged in into account
+2022-12-16 18:54:00,930 - logger_File} -INFO - user changed category to smart home
+2022-12-16 18:54:01,018 - logger_File} -INFO - user typed kasa outdoor smart plug in search bar
+2022-12-16 18:54:01,095 - logger_File} -INFO - user clicked on search button
+2022-12-16 18:54:01,290 - logger_File} -INFO - user clicked on item
+2022-12-16 18:54:01,430 - logger_File} -INFO - user changed quantity to 2
+2022-12-16 18:54:01,484 - logger_File} -INFO - user clicked on add to cart button

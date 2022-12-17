@@ -34,6 +34,7 @@ public class RetailAccountSteps extends CommonUtilities{
 	
 	@And("User click on update option")
 	public void userClickOnUpdateOption() {
+		slowDown();
 		click(factory.accountPage().updateBttn);
 		logger.info("user clicked on update button");
 	}

@@ -49,7 +49,7 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(id="searchBtn")
 	public WebElement searchBttn;
 	
-	@FindBy(xpath="//img[@class='image']")
+	@FindBy(xpath="//img[@alt='Kasa Outdoor Smart Plug']")
 	public WebElement plugItem;
 	
 	@FindBy(xpath="//option[text()='2']//parent::select[@class='product__select']")
