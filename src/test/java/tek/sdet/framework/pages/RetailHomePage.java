@@ -79,7 +79,7 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(xpath="//p[text()='Order Placed, Thanks']")
 	public WebElement orderPlacedMsg;
 	
-	@FindBy(xpath="//span[text()='5']")
+	@FindBy(xpath="//span[text()='9']")
 	public WebElement apexCartQty;
 	
 	@FindBy(xpath="//span[text()='TV & Video']")
